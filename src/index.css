@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  padding: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  background: 0;
+  padding: 0.5em 1.5em;
+  font-size: 1.125rem;
+  transition: 250ms;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.flow-content--s > * + * {
+  margin-top: 0.5rem !important;
+}
+.flow-content--m > * + * {
+  margin-top: 1rem !important;
+}
+.flow-content--xm > * + * {
+  margin-top: 1.5rem !important;
+}
+.flow-content--l > * + * {
+  margin-top: 3rem !important;
+}
+.flow-content--xl > * + * {
+  margin-top: 3.5rem !important;
+}
+
+.special {
+  @apply text-[#F67E7E];
+}
+
+.btn--primary {
+  @apply border-2 border-white rounded-full py-2 px-8;
+}
+
+.hero__desc::before {
+  content: "";
+  display: block;
+  background-color: #79c8c7;
+  width: 40px;
+  height: 4px;
+  margin-bottom: 3rem;
+}
+
+.teams__title::before {
+  content: "";
+  display: block;
+  background-color: #f67e7e;
+  width: 40px;
+  height: 4px;
+  margin-bottom: 3rem;
+}
