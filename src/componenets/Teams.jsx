@@ -6,7 +6,7 @@ const Teams = () => {
     <section className="py-16 bg-[#012F34] text-white">
       <div className="container grid md:grid-cols-2">
         <header className="">
-          <h2 className="title text-[3rem] max-w-[450px] font-bold teams__title">
+          <h2 className="title lg:text-[3rem] max-w-[450px] font-bold teams__title text-[2rem]">
             Build & manage distributed teams like no one else.
           </h2>
         </header>

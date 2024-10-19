@@ -8,10 +8,14 @@ const Nav = () => {
           </a>
           <ul className="flex items-center gap-4">
             <li className="flex items-center">
-              <a href="">home</a>
+              <a href="" className="hover:text-[#F67E7E] duration-300">
+                home
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="">about</a>
+              <a href="" className="hover:text-[#F67E7E] duration-300">
+                about
+              </a>
             </li>
           </ul>
         </div>

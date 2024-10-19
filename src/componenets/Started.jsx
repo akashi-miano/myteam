@@ -1,18 +1,26 @@
+import { startedDecor } from "../assets";
+
 const Started = () => {
   return (
-    <section className="py-16 bg-[#F67E7E] text-[#012F34]">
+    <section className="py-24 lg:py-16 bg-[#F67E7E] text-[#012F34] relative overflow-y-hidden">
       <div className="container flex justify-between items-center">
         <header>
-          <h2 className="title text-[3rem] font-bold">Ready to get started?</h2>
+          <h2 className="title lg:text-[3rem] text-[2rem] font-bold">
+            Ready to get started?
+          </h2>
         </header>
         <div className="">
-          <a
-            href=""
-            className="btn px-8 py-2 rounded-full border-2 border-[#012F34] font-semibold"
-          >
+          <a href="" className="btn btn--secondary ">
             contact us
           </a>
         </div>
+      </div>
+      <div className="img-wrapper">
+        <img
+          src={startedDecor}
+          alt=""
+          className="absolute lg:bottom-0 left-0 w-[150px] h-[150px] lg:w-[200px] lg:h-[144px] translate-y-[-15%] lg:translate-y-0"
+        />
       </div>
     </section>
   );

@@ -71,7 +71,11 @@ h6 {
 }
 
 .btn--primary {
-  @apply border-2 border-white rounded-full py-2 px-8;
+  @apply border-2 border-white rounded-full py-2 px-8 hover:bg-white duration-300 hover:text-[#002529];
+}
+
+.btn--secondary {
+  @apply px-8 py-2 rounded-full border-2 border-[#012F34] font-semibold hover:bg-[#012F34] duration-300 hover:text-white;
 }
 
 .hero__desc::before {
